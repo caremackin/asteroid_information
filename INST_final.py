@@ -19,7 +19,7 @@ while True:
 dates_df = pd.DataFrame(personal_data)
 dates_df.to_csv('interest_dates.csv', index=False)
 
-dates = pd.read_csv("interest_dates.csv") # this sample data file is posted on ELMS
+dates = pd.read_csv("interest_dates.csv")
 print(dates)
 
 
